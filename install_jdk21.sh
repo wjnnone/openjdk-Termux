@@ -13,7 +13,7 @@ if  [ -d openjdk-21.0.1-aarch64     ];  then
 elif ! [ -f openjdk-21.0.1-aarch64.zip   ]; then 
 	echo "正在安装"
 	apt install wget -y
-	wget https://github.com/zryyoung/openjdk-Termux/releases/download/openjdk-21.0.1/openjdk-21.0.1-aarch64.zip -O openjdk-21.0.1-aarch64.zip &&
+	wget https://github.com/2710604919/openjdk-Termux/releases/download/openjdk-21.0.1/openjdk-21.0.1-aarch64.zip -O openjdk-21.0.1-aarch64.zip &&
 	echo "下载完成  正在解压" 
 fi
 unzip openjdk-21.0.1-aarch64.zip -d /data/data/com.termux/files/usr/opt/ &&
