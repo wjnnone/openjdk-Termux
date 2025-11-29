@@ -70,10 +70,9 @@
       </Realm>
 
       <Host name="localhost"  appBase="webapps" unpackWARs="true" autoDeploy="true">
-        <!-- 注释掉访问日志Valve，禁用localhost_access_log文件生成 -->
-        <!-- <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs"
+        <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs"
                prefix="localhost_access_log" suffix=".txt"
-               pattern="%h %l %u %t &quot;%r&quot; %s %b" /> -->
+               pattern="%h %l %u %t &quot;%r&quot; %s %b" />
       </Host>
     </Engine>
   </Service>
