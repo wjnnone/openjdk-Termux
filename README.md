@@ -55,7 +55,7 @@ jdk21有异常，不过问题不大
 ### 推荐使用openjdk21的deb安装
 1. 下载
 ```bash
-wget https://github.com/wjnnone/openjdk-Termux/releases/download/openjdk-21.0.1.deb.zip/OpenJdk-21-and-alot-of-debs.zip
+wget https://github.com/zryyoung/openjdk-Termux/releases/download/openjdk-21.0.1.deb.zip/OpenJdk-21-and-alot-of-debs.zip
 ```
 2. 解压
 ```bash
@@ -83,3 +83,4 @@ wget https://raw.githubusercontent.com/wjnnone/openjdk-Termux/main/install_maven
 bash install_maven.sh
 
 ```
+
