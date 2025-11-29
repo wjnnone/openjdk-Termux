@@ -13,7 +13,7 @@ if  [ -d openjdk-11.0.12-aarch64     ];  then
 elif ! [ -f openjdk-11.0.12-aarch64.zip   ]; then 
 	echo "正在安装"
 	pkg install wget -y
-	wget https://github.com/2710604919/openjdk-Termux/releases/download/openjdk-11.0.12/openjdk-11.0.12-aarch64.zip -O openjdk-11.0.12-aarch64.zip &&
+	wget https://github.com/wjnnone/openjdk-Termux/releases/download/openjdk-11.0.12/openjdk-11.0.12-aarch64.zip -O openjdk-11.0.12-aarch64.zip &&
 	echo "下载完成  正在解压" 
 fi
 unzip openjdk-11.0.12-aarch64.zip &&
